@@ -1,0 +1,83 @@
+div#container {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 15px;
+  display: grid;
+}
+
+div#main {
+  background-color: white;
+  margin: 5em;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  grid-template-rows: 0fr;
+  gap: 20px;
+}
+
+div#contentRight {
+  background-color: rgba(56, 186, 209, 0.555);
+  border-radius: 10px;
+  margin: 1em;
+}
+
+div.iR {
+  margin: 1em;
+  height: 7em;
+  background-image: url('https://s1.1zoom.me/big0/626/Vector_Graphics_Tigers_456755.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+div.text {
+  margin: 15px;
+  background-color: rgb(38, 223, 78);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+div.footerR {
+  margin: 1em;
+  background-color: rgb(46, 46, 75);
+  border-radius: 10px;
+}
+
+div#contentLeft {
+  background-color: rgba(56, 186, 209, 0.555);
+  border-radius: 10px;
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.box1 {
+  grid-column: 2;
+  background-color: cornsilk;
+  margin: 1em;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+div.iL {
+  margin: 1em;
+  height: 7em;
+  background-image: url('https://st.depositphotos.com/1035449/1673/v/600/depositphotos_16730327-stock-illustration-vector-color-sketch-of-the.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+div#contentBox {
+  margin: 0.5em;
+}
+
+p {
+  font-size: 1.1em;
+}
